@@ -1,0 +1,187 @@
+body {
+  font-family: "Inter";
+  font-size: 16px;
+}
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  /* background-color: salmon; */
+}
+main section {
+  /* background-color: yellow; */
+  width: calc(100% / 3 * 2);
+  min-width: 300px;
+  background-image: url("img/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section p {
+  margin-top: 1vw;
+
+  text-align: center;
+  color: white;
+}
+.sigin-text {
+  margin-top: 10vh;
+  font-size: 48px;
+  margin-bottom: 5px;
+}
+
+.info-text {
+  margin-bottom: 30px;
+}
+main .logo {
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+}
+
+main .small-logo {
+  display: none;
+}
+
+main aside {
+  padding-left: 20px;
+  padding-top: 20px;
+  max-width: 400px;
+  min-width: 200px;
+}
+
+aside {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+aside p {
+  font-size: 18px;
+  color: #aaaaaa;
+}
+
+label {
+  color: #4e4b66;
+  font-family: "Mulish";
+  font-size: 16px;
+}
+
+input {
+  width: 310px;
+  height: 50px;
+  border-radius: 4px;
+  font-family: "Mulish";
+  font-size: 16px;
+  border: 1px solid #dedede;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43, 21, 107, 0.8);
+}
+
+.box img {
+  display: block;
+  padding-top: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#submit {
+  color: white;
+  background-color: #5f2eea;
+  width: 100%;
+  font-size: 16px;
+}
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.text-google,
+.text-facebook {
+  font-size: 15px;
+}
+.box1,
+.box2 {
+  display: inline-block;
+  vertical-align: middle;
+  inline-size: 50px;
+  margin: 0px 10px;
+  padding: 4px;
+  width: 120px;
+  line-height: 50px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+#pass {
+  position: relative;
+  display: inline-block;
+
+  float: right;
+}
+
+#icon-eye {
+  float: right;
+  margin-top: -40px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    display: none;
+  }
+  .text-google,
+  .text-facebook {
+    display: none;
+  }
+
+  .box1,
+  .box2 {
+    margin: 0px 5px;
+    width: 50px;
+  }
+
+  main .small-logo {
+    display: inline;
+    margin-top: 10vh;
+    margin-bottom: 10px;
+  }
+
+  .info-text {
+    display: none;
+  }
+
+  .sigin-text {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 26px;
+  }
+}

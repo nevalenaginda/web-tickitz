@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tickitz</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Mulish"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets payment\style_signin.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="box">
+          <img class="logo" src="assets payment\img\logo.png" alt="" />
+          <p style="font-size: 3vw">wait, watch, wow</p>
+        </div>
+      </section>
+      <aside>
+        <!-- Header Sign In -->
+        <img
+          class="small-logo"
+          src="assets payment\img\logo_sigin_small.svg"
+          alt=""
+        />
+        <h1 class="sigin-text">Sign In</h1>
+        <p class="info-text">
+          Sign in with your data that you entered during your registration
+        </p>
+        <form>
+          <div class="container">
+            <label>Email</label><br />
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="&nbsp Write your email"
+            /><br />
+            <br />
+            <label>Password</label><br />
+            <div class="container">
+              <input
+                type="password"
+                id="pass"
+                name="password"
+                placeholder="&nbsp Write your password"
+                style="display: inline-block"
+              /><span
+                toggle="#password-field"
+                class="fa fa-fw fa-eye field_icon toggle-password"
+                id="icon-eye"
+              ></span>
+            </div>
+
+            <br />
+            <br />
+            <input
+              id="submit"
+              formaction="index.html"
+              type="submit"
+              value="Sign In"
+            />
+
+            <p style="text-align: center; font-size: 16px">
+              Forgot your password? <a href="index.html">Reset now</a>
+            </p>
+
+            <p style="text-align: center; font-size: 16px">
+              ---------- or ----------
+            </p>
+
+            <div class="container" style="text-align: center">
+              <div class="box1">
+                <p style="display: inline">
+                  <a href="#" class="fa fa-google"></a>
+                  <span class="text-google">Google</span>
+                </p>
+              </div>
+              <div class="box2">
+                <p style="display: inline">
+                  <a href="#" class="fa fa-facebook"></a>
+                  <span class="text-facebook">Facebook</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </form>
+      </aside>
+    </main>
+  </body>
+</html>

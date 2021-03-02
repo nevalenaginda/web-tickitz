@@ -1,0 +1,316 @@
+/* css navbar */
+.form-inline button {
+  background: #ffffff;
+  border: none;
+  padding-right: 20px;
+}
+.navbar-pos {
+  position: fixed;
+  background: white;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+}
+
+nav {
+  /* background: blue; */
+  /* display: table; */
+  font-family: "Mulish";
+  line-height: 50px;
+  color: #414141;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+nav .dropdown-item {
+  line-height: 20px;
+}
+
+.navbar-nav > li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.btn-nav {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.75px;
+
+  /* Grayscale / Background */
+
+  color: #f7f7fc;
+  background: #5f2eea;
+  border-color: #5f2eea;
+  border-radius: 4px;
+  height: 40px;
+  width: 120px;
+  margin-left: 20px;
+}
+/* akhir css navbar */
+
+/* css content */
+.main-pos {
+  margin-top: 100px;
+}
+.content {
+  background: #f5f6f8;
+  font-family: "Mulish";
+}
+.banner-text1 {
+  margin-top: 150px;
+  color: #a0a3bd;
+  position: relative;
+}
+
+.banner-text2 {
+  font-size: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  color: #5f2eea;
+  position: relative;
+}
+
+.bg-banner-img {
+  width: 107px;
+  height: 352.06px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/* now showing */
+.nowshowing-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+
+  /* Color Primary */
+
+  color: #5f2eea;
+  border-bottom: 3px solid #5f2eea;
+  padding-bottom: 15px;
+}
+
+/* card movie nowshowing */
+.border-color {
+  background: rgba(255, 255, 255, 0.2);
+  /* White */
+
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+/* upcoming movies */
+.upcoming-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+
+  /* Color Primary */
+
+  color: #14142b;
+}
+/* month button */
+.nextmonth-btn {
+  border: 1px solid #5f2eea;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: white;
+  height: 42px;
+  width: 100px;
+  border-radius: 4px;
+  color: #5f2eea;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.nowmonth-btn {
+  height: 42px;
+  width: 100px;
+  border: 1px solid #5f2eea;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: #5f2eea;
+  box-shadow: 0px 8px 30px rgba(95, 46, 234, 0.3);
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+/* Upcoming movies card */
+.title-upcoming-card {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+  letter-spacing: 0.15px;
+
+  /* Text - Title */
+
+  color: #14142b;
+}
+
+.text-upcoming-card {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.4px;
+
+  /* Placeholder */
+
+  color: #a0a3bd;
+}
+
+.btn-details {
+  border: 1px solid #5f2eea;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: white;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Color Primary */
+
+  color: #5f2eea;
+}
+
+/* Form */
+.text-header1 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 114%;
+  /* or 27px */
+
+  text-align: center;
+  letter-spacing: 0.25px;
+
+  color: #4e4b66;
+}
+
+.btn-join-now {
+  font-family: "Mulish";
+  background: #5f2eea;
+  border-radius: 4px;
+}
+
+.text-header2 {
+  margin-bottom: 50px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 114%;
+  /* or 27px */
+
+  text-align: center;
+  letter-spacing: 0.25px;
+
+  color: #5f2eea;
+}
+
+.text-paragraph {
+  margin-top: 50px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  text-align: center;
+  letter-spacing: 0.75px;
+
+  /* Text - Label */
+
+  color: #6e7191;
+}
+
+.view-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: 0.15px;
+
+  /* Color Primary */
+
+  color: #5f2eea;
+}
+
+/* akhir css content */
+
+/* css Footer */
+footer {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+}
+.warna-bg {
+  background: white;
+}
+
+.text-footer1 {
+  text-align: left;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.75px;
+  color: #6e7191;
+}
+.explore-list {
+  text-decoration: none;
+  color: #6e7191;
+}
+
+/* Akhir css footer */
+
+/* Bagian Responsive */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  nav {
+    line-height: 30px;
+  }
+}

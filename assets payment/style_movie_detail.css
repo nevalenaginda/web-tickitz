@@ -1,0 +1,140 @@
+/* css navbar */
+.form-inline button {
+  background: #ffffff;
+  border: none;
+  padding-right: 20px;
+}
+.navbar-pos {
+  position: fixed;
+  background: white;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+}
+
+nav {
+  /* background: blue; */
+  /* display: table; */
+  font-family: "Mulish";
+  line-height: 50px;
+  color: #414141;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+nav .dropdown-item {
+  line-height: 20px;
+}
+
+.navbar-nav > li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* akhir css navbar */
+
+/* css content */
+.main-pos {
+  margin-top: 50px;
+}
+.content {
+  background: #f5f6f8;
+  font-family: "MUlish";
+}
+.line-border {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #dedede;
+  width: 100%;
+}
+.btn-1 {
+  height: 40px;
+  width: 134px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #f7f7fc;
+  background: #5f2eea;
+  border: none;
+  border-radius: 4px;
+  line-height: 30px;
+  vertical-align: middle;
+  box-shadow: 0px 8px 24px rgba(95, 46, 234, 0.24);
+}
+.btn-2 {
+  height: 40px;
+  width: 134px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #5f2eea;
+  background-color: white;
+  line-height: 30px;
+  vertical-align: middle;
+  border: none;
+}
+
+.set-box {
+  background: #eff0f6;
+  border-color: #eff0f6;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+
+  letter-spacing: 0.25px;
+
+  color: #4e4b66;
+}
+
+.set-box:hover {
+  background: #eff0f6;
+  border-color: #eff0f6;
+  color: #4e4b66;
+}
+.set-box:active {
+  background: #eff0f6;
+  border-color: #eff0f6;
+  color: #4e4b66;
+}
+/* akhir css content */
+
+/* css Footer */
+footer {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+}
+.warna-bg {
+  background: white;
+}
+
+.text-footer1 {
+  text-align: left;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.75px;
+  color: #6e7191;
+}
+.explore-list {
+  text-decoration: none;
+  color: #6e7191;
+}
+
+/* Akhir css footer */
+
+/* Bagian Responsive */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .user {
+    display: none;
+  }
+  nav {
+    line-height: 30px;
+  }
+}

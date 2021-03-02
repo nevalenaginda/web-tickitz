@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS 4.6-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- CSS Custom -->
+    <link rel="stylesheet" href="/assets payment/style_payment.css" />
+
+    <!-- Link Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Mulish"
+      rel="stylesheet"
+    />
+
+    <title>Payment</title>
+  </head>
+  <body>
+    <!-- Bagian Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light navbar-pos shadow-sm">
+        <a class="navbar-brand" href="#">
+          <img
+            src="assets payment/img/navbar_logo.svg"
+            width="140"
+            height="51"
+            alt=""
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >Movies<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="movie_detail.html">Cinemas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="order_page.html">Buy Tickets</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Locations
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="sign_in.html">Jakarta</a>
+                  <a class="dropdown-item" href="payment_page.html">Bandung</a>
+                  <a class="dropdown-item" href="#">Surabaya</a>
+                </div>
+              </li>
+            </ul>
+            <button type="submit">
+              <i
+                class="fa fa-search d-sm-none d-md-block d-none d-md-block"
+              ></i>
+            </button>
+          </form>
+          <img
+            class="user rounded d-none d-md-block"
+            alt=""
+            src="assets payment/img/user.png"
+            width="34"
+            height="24"
+            alt=""
+            style="padding-left: 10px"
+          />
+        </div>
+      </nav>
+    </header>
+    <!-- Akhir Bagian Navbar -->
+
+    <!-- Awal Content -->
+    <!-- <div class="container content"> -->
+    <div class="row mb-5 px-5 mt-5 content">
+      <!-- Awal Col 8 -->
+      <div class="col-md-7 mt-5 mt-sm-0">
+        <!-- Payment Info -->
+        <h5 class="mt-5 mb-3 d-none d-sm-block"><b>Payment Info</b></h5>
+        <div class="card mt-sm-0 mb-5 py-3">
+          <ul class="list-group list-group-flush px-4">
+            <li class="list-group-item d-none d-sm-block">
+              <p class="align-left">Date & time</p>
+              <p class="align-right">Tuesday, 07 July 2020 at 02:00pm</p>
+            </li>
+            <li class="list-group-item d-none d-sm-block">
+              <p class="align-left">Movie title</p>
+              <p class="align-right">Spider-Man: Homecoming</p>
+            </li>
+            <li class="list-group-item d-none d-sm-block">
+              <p class="align-left">Cinema name</p>
+              <p class="align-right">CineOne21 Cinema</p>
+            </li>
+            <li class="list-group-item d-none d-sm-block">
+              <p class="align-left">Number of tickets</p>
+              <p class="align-right">3 pieces</p>
+            </li>
+            <li class="list-group-item">
+              <p class="align-left">Total payment</p>
+              <p><b class="align-right">$30,00</b></p>
+            </li>
+          </ul>
+        </div>
+        <!-- Choose a Payment Method -->
+        <h5 class="mb-3 d-none d-sm-block">
+          <b>Choose a Payment Method</b>
+        </h5>
+        <h5 class="mb-3 d-block d-sm-none"><b>Payment Method</b></h5>
+        <div class="container bg-white">
+          <!-- col card 1 -->
+          <div class="row mx-auto pt-5 px-auto">
+            <div class="col-4 col-sm-3">
+              <div class="card p-2 mb-2">
+                <img
+                  src="assets payment/img/logo_gpay.svg"
+                  class="card-img-top"
+                  width="150"
+                  height="30"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="col-4 col-sm-3">
+              <div class="card p-2 mb-2">
+                <img
+                  src="assets payment/img/logo_visa.svg"
+                  class="card-img-top"
+                  width="150"
+                  height="30"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="col-4 col-sm-3">
+              <div class="card p-2 mb-2">
+                <img
+                  src="assets payment/img/logo_gopay.svg"
+                  class="card-img-top"
+                  width="150"
+                  height="30"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="col-4 col-sm-3">
+              <div class="card py-2 px-4 mb-2">
+                <img
+                  src="assets payment/img/logo_paypal.svg"
+                  class="card-img-top"
+                  width="50"
+                  height="30"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <!-- </div> -->
+            <!-- col card 2 -->
+            <!-- <div class="row px-auto py-3 mx-auto"> -->
+            <div class="col-4 col-sm-3">
+              <div class="card mb-2 p-2">
+                <img
+                  src="assets payment/img/logo_dana.svg"
+                  class="card-img-top"
+                  width="150"
+                  height="30"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="col-4 col-sm-3 d-none d-sm-block">
+              <div class="card p-2 mb-2">
+                <img
+                  src="assets payment/img/logo_bca.svg"
+                  class="card-img-top"
+                  width="150"
+                  height="30"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="col-4 col-sm-3 d-none d-sm-block">
+              <div class="card py-2 px-4 mb-2">
+                <img
+                  src="assets payment/img/logo_bri.svg"
+                  class="card-img-top"
+                  width="150"
+                  height="30"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="col-4 col-sm-3">
+              <div class="card p-2">
+                <img
+                  src="assets payment/img/logo_ovo.svg"
+                  class="card-img-top"
+                  width="50"
+                  height="30"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col"><div class="line"></div></div>
+            <div class="col-2">
+              <p
+                style="
+                  text-align: center;
+                  vertical-align: middle;
+                  font-size: 20px;
+                "
+              >
+                or
+              </p>
+            </div>
+            <div class="col"><div class="line"></div></div>
+          </div>
+
+          <p class="pb-5" style="text-align: center">
+            Pay via cash.
+            <a href="" style="color: #5f2eea">See how itu works</a>
+          </p>
+        </div>
+
+        <!-- Button -->
+        <div class="row mb-5">
+          <div class="col-md-5">
+            <button
+              type="button"
+              class="btn btn-outline-primary btn-block btn-previous"
+            >
+              Previous Step
+            </button>
+          </div>
+          <div class="col-md-2"></div>
+          <div class="col-md-5 d-none d-sm-block">
+            <button type="button" class="btn btn-primary btn-block btn-pay">
+              Pay Your Order
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Akhir Col 8 -->
+
+      <!-- Awal Col 4 -->
+      <div class="col-md-5 mt-5">
+        <h5 class="mb-4"><b>Personal Info</b></h5>
+        <div class="card mb-5">
+          <form class="px-4 py-4">
+            <div class="form-group">
+              <label for="formGroupExampleInput">Full Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <label for="exampleInputEmail1">Phone Number</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span
+                  class="input-group-text bg-white"
+                  id="validatedInputGroupPrepend"
+                  >+62</span
+                >
+              </div>
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput"
+              />
+            </div>
+
+            <div class="info icon hidden-xs">
+              <i class="fa fa-exclamation-triangle"></i>&nbsp Fill Your Data
+              Correctly
+            </div>
+          </form>
+        </div>
+        <!-- Akhir Col 4 -->
+        <div class="row mb-5 d-block d-sm-none">
+          <div class="col-md-5">
+            <button
+              type="button"
+              class="btn btn-outline-primary btn-block btn-previous"
+            >
+              Previous Step
+            </button>
+          </div>
+          <div class="col-md-2"></div>
+          <div class="col-md-5">
+            <button type="button" class="btn btn-primary btn-block btn-pay">
+              Pay Your Order
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Content -->
+
+    <!-- Awal Footer -->
+
+    <footer class="px-5 mt-5 py-5 bg-white">
+      <!-- <div class="container "> -->
+      <div class="row">
+        <div class="col-md-4 mb-5 px-5">
+          <div class="row mb-3 ml-5">
+            <img
+              src="assets payment/img/navbar_logo.svg"
+              class="img float-left"
+              alt="..."
+            />
+          </div>
+          <div class="row ml-5">
+            <h5 class="text-footer1">
+              Stop waiting in line. Buy tickets <br />conveniently, watch movies
+              quietly.
+            </h5>
+          </div>
+        </div>
+        <div class="col-md-2 mb-5 px-5 mt-2">
+          <div class="row ml-5"><b>Explore</b></div>
+          <div class="row ml-5 pt-3 pb-2">
+            <a href="" class="explore-list">Cinemas</a>
+          </div>
+          <div class="row ml-5 pt-3 pb-2">
+            <a href="" class="explore-list">Movie List</a>
+          </div>
+          <div class="row ml-5 pt-3 pb-2">
+            <a href="" class="explore-list">My Ticket</a>
+          </div>
+          <div class="row ml-5 pt-3 pb-2">
+            <a href="" class="explore-list">Notification</a>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-5 px-5 mt-2">
+          <div class="row ml-5"><b>Our Sponsor</b></div>
+          <div class="row ml-5 pt-3 pb-2">
+            <img
+              src="assets payment/img/ebuid.png"
+              class="img float-left"
+              alt="..."
+            />
+          </div>
+          <div class="row ml-5 pt-3 pb-2">
+            <img
+              src="assets payment/img/cineone21.png"
+              class="img float-left"
+              alt="..."
+            />
+          </div>
+          <div class="row ml-5 pt-3 pb-2">
+            <img
+              src="assets payment/img/hiflix.png"
+              class="img float-left"
+              alt="..."
+            />
+          </div>
+        </div>
+        <div class="col-md-3 mb-5 px-5 mt-2 float-right">
+          <div class="row ml-5"><b>Follow Us</b></div>
+          <div class="row ml-5 pt-3 pb-2">
+            <a class="explore-list" href="#"
+              ><i class="fa fa-facebook"></i>&nbsp&nbsp Tickitz Cinema id</a
+            >
+          </div>
+          <div class="row ml-5 pt-3 pb-2">
+            <a class="explore-list" href="#"
+              ><i class="fa fa-instagram"></i>&nbsp&nbsp tickitz.id</a
+            >
+          </div>
+          <div class="row ml-5 pt-3 pb-2">
+            <a class="explore-list" href="#"
+              ><i class="fa fa-twitter"></i>&nbsp&nbsp tickitz.id</a
+            >
+          </div>
+          <div class="row ml-5 pt-3 pb-2">
+            <a class="explore-list" href="#"
+              ><i class="fa fa-youtube"></i>&nbsp&nbsp Tickitz Cinema id</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-5">© 2020 Tickitz. All Rights Reserved.</div>
+      <!-- </div> -->
+    </footer>
+
+    <!-- Akhir Footer -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

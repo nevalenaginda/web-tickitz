@@ -1,0 +1,119 @@
+/* css navbar */
+.form-inline button {
+  background: #ffffff;
+  border: none;
+  padding-right: 20px;
+}
+.navbar-pos {
+  position: fixed;
+  background: white;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+}
+
+nav {
+  /* background: blue; */
+  /* display: table; */
+  font-family: "Mulish";
+  line-height: 50px;
+  color: #414141;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+nav .dropdown-item {
+  line-height: 20px;
+}
+
+.navbar-nav > li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* akhir css navbar */
+
+/* css content */
+.content {
+  background: #f5f6f8;
+  font-family: "MUlish";
+}
+.line-border {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  border: 4px solid #fcfdfe;
+  width: 80%;
+}
+#seating-font {
+  font-size: 14px;
+}
+.shape {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  background-color: salmon;
+}
+.btn-previous {
+  color: #5f2eea;
+  border-color: #5f2eea;
+}
+
+.btn-previous:hover {
+  background: #5f2eea;
+  color: white;
+}
+.btn-pay {
+  background: #5f2eea;
+}
+
+/* akhir css content */
+
+/* css Footer */
+footer {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+}
+.warna-bg {
+  background: white;
+}
+
+.text-footer1 {
+  text-align: left;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.75px;
+  color: #6e7191;
+}
+.explore-list {
+  text-decoration: none;
+  color: #6e7191;
+}
+
+/* Akhir css footer */
+
+/* Bagian Responsive */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .user {
+    display: none;
+  }
+  nav {
+    line-height: 30px;
+  }
+
+  /* content */
+  .align-left,
+  .align-right {
+    font-size: 14px;
+  }
+  .btn-previous {
+    display: none;
+  }
+}
